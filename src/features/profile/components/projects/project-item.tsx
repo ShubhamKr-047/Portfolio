@@ -1,9 +1,4 @@
-import {
-  ChevronsDownUpIcon,
-  ChevronsUpDownIcon,
-  InfinityIcon,
-  LinkIcon,
-} from "lucide-react";
+import { ChevronsDownUpIcon, ChevronsUpDownIcon, LinkIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -29,8 +24,7 @@ export function ProjectItem({
   className?: string;
   project: Project;
 }) {
-  const { start, end } = project.period;
-  const isOngoing = !end;
+  const { start } = project.period;
 
   return (
     <Collapsible defaultOpen={project.isExpanded} asChild>

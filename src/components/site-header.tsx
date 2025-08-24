@@ -4,7 +4,6 @@ import Link from "next/link";
 import { DesktopNav } from "@/components/desktop-nav";
 import { NavItemGitHub } from "@/components/nav-item-github";
 import { MAIN_NAV } from "@/config/site";
-
 import { cn } from "@/lib/utils";
 
 import { SiteHeaderMark } from "./site-header-mark";

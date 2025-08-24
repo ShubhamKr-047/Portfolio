@@ -1,9 +1,4 @@
-import { RssIcon } from "lucide-react";
-
-import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
-import { cn } from "@/lib/utils";
-
-import { Icons } from "./icons";
+import { SOURCE_CODE_GITHUB_URL } from "@/config/site";
 
 export function SiteFooter() {
   return (
@@ -31,8 +26,4 @@ export function SiteFooter() {
       </div>
     </footer>
   );
-}
-
-function Separator() {
-  return <div className="flex h-11 w-px bg-edge" />;
 }
