@@ -92,7 +92,7 @@ Technologies used: HTML, CSS, JavaScript, CSS Grid, Flexbox, Keyframes`,
     period: {
       start: "Aug 2023",
     },
-    link: "https://github.com/ShubhamKr-047/portfolio",
+    link: "https://shubhamkr-047portfolio.vercel.app/",
     skills: [
       "Next.js 15",
       "Tailwind CSS v4",

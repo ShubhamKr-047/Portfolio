@@ -16,7 +16,7 @@ export const USER: User = {
   address: "Bhagalpur, Bihar, India",
   phoneNumber: "KzkxNzk3OTg2NjU2OQ==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "c2h1YmhhbWt1bWFyLmNzZTA0N0BnbWFpbC5jb20=", // base64 encoded
-  website: "https://chanhdai.com",
+  website: "https://shubhamkr-047portfolio.vercel.app/",
   jobTitle: "Full Stack Developer",
   jobs: [
     {
