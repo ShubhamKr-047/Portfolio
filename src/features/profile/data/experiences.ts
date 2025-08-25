@@ -13,6 +13,11 @@ export const EXPERIENCES: Experience[] = [
         endDate: "2025-12-31",
         description: "A sample position for demonstration purposes.",
         achievements: ["Sample achievement 1", "Sample achievement 2"],
+        skills: ["JavaScript", "React", "Node.js"],
+        employmentPeriod: {
+          start: "2025-01-01",
+          end: "2025-12-31",
+        },
       },
     ],
   },

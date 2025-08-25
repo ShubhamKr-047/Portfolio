@@ -4,6 +4,7 @@ export const AWARDS: Award[] = [
   {
     id: "sample-award",
     title: "Sample Award",
+    prize: "First Place",
     issuer: "Sample Organization",
     issueDate: "2025-01-01",
     description: "A sample award for demonstration purposes.",

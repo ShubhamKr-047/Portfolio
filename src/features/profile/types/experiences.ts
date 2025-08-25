@@ -3,8 +3,13 @@ export interface ExperiencePosition {
   title: string;
   startDate: string;
   endDate?: string;
-  description: string;
+  description?: string;
   achievements: string[];
+  skills?: string[];
+  employmentPeriod: {
+    start: string;
+    end?: string;
+  };
 }
 
 export interface Experience {
