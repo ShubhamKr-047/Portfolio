@@ -30,7 +30,41 @@ export function ProjectItem({
     <Collapsible defaultOpen={project.isExpanded} asChild>
       <div className={className}>
         <div className="flex items-center">
-          {project.logo ? (
+          {project.theme ? (
+            <>
+              <Image
+                src={`/icons/${project.id}-light.svg`}
+                alt={`${project.title} light icon`}
+                width={32}
+                height={32}
+                quality={100}
+                className="mx-4 flex hidden size-6 shrink-0 select-none [html.light_&]:block"
+                unoptimized
+                aria-hidden="true"
+              />
+              <Image
+                src={`/icons/${project.id}-dark.svg`}
+                alt={`${project.title} dark icon`}
+                width={32}
+                height={32}
+                quality={100}
+                className="mx-4 flex hidden size-6 shrink-0 select-none [html.dark_&]:block"
+                unoptimized
+                aria-hidden="true"
+              />
+            </>
+          ) : project.customIcon ? (
+            <Image
+              src={project.customIcon}
+              alt={project.title}
+              width={32}
+              height={32}
+              quality={100}
+              className="mx-4 flex size-6 shrink-0 select-none"
+              unoptimized
+              aria-hidden="true"
+            />
+          ) : project.logo ? (
             <Image
               src={project.logo}
               alt={project.title}

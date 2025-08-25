@@ -17,6 +17,8 @@ export const USER: User = {
   phoneNumber: "KzkxNzk3OTg2NjU2OQ==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "c2h1YmhhbWt1bWFyLmNzZTA0N0BnbWFpbC5jb20=", // base64 encoded
   website: "https://shubhamkr-047portfolio.vercel.app/",
+  resume:
+    "https://drive.google.com/file/d/1E501zDg6ZaRYGpvctsQMoK_Zg4cf2phr/view?usp=sharing",
   jobTitle: "Full Stack Developer",
   jobs: [
     {
@@ -43,14 +45,8 @@ I also lead the Google Developer Group (GDG) CP/DSA team at IIIT Nagpur, where I
 Let's connect and collaborate!
   `,
   avatar: "/icons/dp1.png",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
+  ogImage: "/icons/dp1.png",
 
-  keywords: [
-    "shubhamkumar",
-    "shubham kumar",
-    "shubham",
-    "kumar",
-  ],
+  keywords: ["shubhamkumar", "shubham kumar", "shubham", "kumar"],
   dateCreated: "2023-10-20", // YYYY-MM-DD
 };

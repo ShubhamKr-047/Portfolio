@@ -8,6 +8,7 @@ export const PROJECTS: Project[] = [
       start: "Oct 2024",
     },
     link: "https://momento-client.vercel.app/",
+    theme: true,
     skills: [
       "Full Stack",
       "React",
@@ -31,12 +32,13 @@ Technologies used: React, Node.js, Express, MongoDB, Redux, JWT, bcrypt, Materia
     isExpanded: true,
   },
   {
-    id: "pdfpal",
+    id: "pdf",
     title: "PDFPal",
     period: {
       start: "Apr 2024",
     },
     link: "https://pdf-pal-fryc.vercel.app/",
+    theme: true,
     skills: [
       "AI/ML",
       "Next.js 15",
@@ -60,12 +62,13 @@ Technologies used: React, Node.js, Express, MongoDB, Redux, JWT, bcrypt, Materia
 Technologies used: Next.js 15, PostgreSQL, OpenAI, AWS S3, PineconeDB, ShadCN, DrizzleORM, Clerk`,
   },
   {
-    id: "algorithm-visualizer",
+    id: "algo",
     title: "Algorithm Visualizer",
     period: {
       start: "Dec 2023",
     },
     link: "https://shubhamkr-047.github.io/Algorithm-Visualizer/",
+    theme: true,
     skills: [
       "Web Development",
       "HTML",
@@ -87,12 +90,13 @@ Technologies used: Next.js 15, PostgreSQL, OpenAI, AWS S3, PineconeDB, ShadCN, D
 Technologies used: HTML, CSS, JavaScript, CSS Grid, Flexbox, Keyframes`,
   },
   {
-    id: "shubham-portfolio",
+    id: "sk-logo",
     title: "Portfolio",
     period: {
       start: "Aug 2023",
     },
     link: "https://shubhamkr-047portfolio.vercel.app/",
+    theme: true,
     skills: [
       "Next.js 15",
       "Tailwind CSS v4",

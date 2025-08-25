@@ -7,7 +7,7 @@ export const components: Registry["items"] = [
     description:
       "A theme switcher component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.",
     title: "Theme Switcher",
-    author: "ncdai <dai@chanhdai.com>",
+    author: "shubham <shubhamkumar.cse047@gmail.com>",
     dependencies: ["next-themes", "lucide-react", "motion"],
     registryDependencies: ["<registryBaseUrl>/utils.json"],
     files: [
@@ -16,13 +16,13 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    docs: "https://chanhdai.com/components/theme-switcher-component",
+    docs: "https://shubhamkr-047portfolio.vercel.app/components/theme-switcher-component",
   },
   {
     name: "flip-sentences",
     type: "registry:component",
     title: "Flip Sentences",
-    author: "ncdai <dai@chanhdai.com>",
+    author: "shubham <shubhamkumar.cse047@gmail.com>",
     dependencies: ["motion"],
     registryDependencies: ["<registryBaseUrl>/utils.json"],
     files: [
@@ -38,7 +38,7 @@ export const components: Registry["items"] = [
     description:
       "Create a Xin chào and Hello writing effect inspired by Apple using Motion for React.",
     title: "Apple Hello Effect",
-    author: "ncdai <dai@chanhdai.com>",
+    author: "shubham <shubhamkumar.cse047@gmail.com>",
     dependencies: ["motion"],
     registryDependencies: ["<registryBaseUrl>/utils.json"],
     files: [
@@ -47,59 +47,6 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    docs: "https://chanhdai.com/components/writing-effect-inspired-by-apple",
-  },
-  {
-    name: "wheel-picker",
-    type: "registry:component",
-    description:
-      "iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.",
-    title: "Wheel Picker",
-    author: "ncdai <dai@chanhdai.com>",
-    dependencies: ["@ncdai/react-wheel-picker"],
-    registryDependencies: ["<registryBaseUrl>/utils.json"],
-    files: [
-      {
-        path: "wheel-picker/wheel-picker.tsx",
-        type: "registry:component",
-      },
-    ],
-    docs: "https://chanhdai.com/components/react-wheel-picker",
-  },
-  {
-    name: "work-experience",
-    type: "registry:component",
-    description:
-      "Displays a list of work experiences with role details and durations.",
-    title: "Work Experience",
-    author: "ncdai <dai@chanhdai.com>",
-    dependencies: ["react-markdown", "lucide-react"],
-    devDependencies: ["@tailwindcss/typography"],
-    registryDependencies: [
-      "<registryBaseUrl>/utils.json",
-      "collapsible",
-      "separator",
-    ],
-    files: [
-      {
-        path: "work-experience/work-experience.tsx",
-        type: "registry:component",
-      },
-    ],
-    cssVars: {
-      light: {
-        background: "oklch(1 0 0)",
-        muted: "oklch(0.967 0.001 286.375)",
-        "muted-foreground": "oklch(0.552 0.016 285.938)",
-        border: "oklch(0.92 0.004 286.32)",
-      },
-      dark: {
-        background: "oklch(0.141 0.005 285.823)",
-        muted: "oklch(0.274 0.006 286.033)",
-        "muted-foreground": "oklch(0.705 0.015 286.067)",
-        border: "oklch(0.274 0.006 286.033)",
-      },
-    },
-    docs: "https://chanhdai.com/components/work-experience-component",
+    docs: "https://shubhamkr-047portfolio.vercel.app/components/writing-effect-inspired-by-apple",
   },
 ];

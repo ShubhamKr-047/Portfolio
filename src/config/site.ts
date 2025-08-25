@@ -20,6 +20,14 @@ export const MAIN_NAV: NavItem[] = [
     href: "/",
   },
   {
+    title: "About",
+    href: "/#about",
+  },
+  {
+    title: "Stack",
+    href: "/#stack",
+  },
+  {
     title: "Projects",
     href: "/#projects",
   },
@@ -30,7 +38,8 @@ export const MAIN_NAV: NavItem[] = [
 ];
 
 export const SOURCE_CODE_GITHUB_REPO = "ShubhamKr-047/Portfolio";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ShubhamKr-047/Portfolio";
+export const SOURCE_CODE_GITHUB_URL =
+  "https://github.com/ShubhamKr-047/Portfolio";
 
 export const UTM_PARAMS = {
   utm_source: "shubhamkr-047portfolio.vercel.app",

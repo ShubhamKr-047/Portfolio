@@ -19,9 +19,8 @@ class SoundManager {
   }
 
   playClick() {
-    this.playAudio(
-      "https://assets.chanhdai.com/audio/ui-sounds/click.wav" // Source: iOS UI Sounds
-    );
+    // Audio functionality disabled - no external audio assets
+    // this.playAudio("https://assets.shubhamkr-047portfolio.vercel.app/audio/ui-sounds/click.wav");
   }
 }
 

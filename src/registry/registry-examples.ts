@@ -34,37 +34,4 @@ export const examples: Registry["items"] = [
       },
     ],
   },
-  {
-    name: "wheel-picker-demo",
-    type: "registry:example",
-    registryDependencies: ["<registryBaseUrl>/wheel-picker.json"],
-    files: [
-      {
-        path: "examples/wheel-picker-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "wheel-picker-form-demo",
-    type: "registry:example",
-    registryDependencies: ["<registryBaseUrl>/wheel-picker.json", "form"],
-    files: [
-      {
-        path: "examples/wheel-picker-form-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "work-experience-demo",
-    type: "registry:example",
-    registryDependencies: ["<registryBaseUrl>/work-experience.json"],
-    files: [
-      {
-        path: "examples/work-experience-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
 ];

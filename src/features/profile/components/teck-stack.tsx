@@ -32,18 +32,15 @@ export function TeckStack() {
                     rel="noopener noreferrer"
                     aria-label={tech.title}
                   >
-                    {tech.customIcon ? (
-                      <Image
-                        src={tech.customIcon}
-                        alt={`${tech.title} icon`}
-                        width={32}
-                        height={32}
-                        unoptimized
-                      />
-                    ) : tech.theme ? (
+                    {tech.theme ? (
                       <>
                         <Image
-                          src={`https://assets.chanhdai.com/images/tech-stack-icons/${tech.key}-light.svg`}
+                          src={
+                            tech.customIcon?.replace(
+                              "-dark.svg",
+                              "-light.svg"
+                            ) || `/icons/${tech.key}-light.svg`
+                          }
                           alt={`${tech.title} light icon`}
                           width={32}
                           height={32}
@@ -51,7 +48,7 @@ export function TeckStack() {
                           unoptimized
                         />
                         <Image
-                          src={`https://assets.chanhdai.com/images/tech-stack-icons/${tech.key}-dark.svg`}
+                          src={tech.customIcon || `/icons/${tech.key}-dark.svg`}
                           alt={`${tech.title} dark icon`}
                           width={32}
                           height={32}
@@ -59,9 +56,17 @@ export function TeckStack() {
                           unoptimized
                         />
                       </>
+                    ) : tech.customIcon ? (
+                      <Image
+                        src={tech.customIcon}
+                        alt={`${tech.title} icon`}
+                        width={32}
+                        height={32}
+                        unoptimized
+                      />
                     ) : (
                       <Image
-                        src={`https://assets.chanhdai.com/images/tech-stack-icons/${tech.key}.svg`}
+                        src={`/icons/${tech.key}.svg`}
                         alt={`${tech.title} icon`}
                         width={32}
                         height={32}

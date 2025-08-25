@@ -9,7 +9,7 @@ type Config = {
   installationType: InstallationType;
 };
 
-const configAtom = atomWithStorage<Config>("chanhdai.config", {
+const configAtom = atomWithStorage<Config>("shubham.config", {
   packageManager: "pnpm",
   installationType: "cli",
 });

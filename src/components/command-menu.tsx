@@ -24,11 +24,10 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { SOCIAL_LINKS } from "@/features/profile/data/social-links";
 import { cn } from "@/lib/utils";
 
-import { ChanhDaiMark } from "./chanhdai-mark";
 import { Icons } from "./icons";
+import { ShubhamMark } from "./shubham-mark";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 
@@ -46,17 +45,12 @@ const MENU_LINKS: CommandLinkItem[] = [
   {
     title: "Portfolio",
     href: "/",
-    icon: ChanhDaiMark,
+    icon: ShubhamMark,
   },
   {
     title: "Projects",
     href: "/#projects",
     icon: Icons.project,
-  },
-  {
-    title: "Socials",
-    href: "/#social-links",
-    icon: Icons.github,
   },
 ];
 
@@ -72,11 +66,6 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     icon: Icons.ts,
   },
   {
-    title: "Education",
-    href: "/#experience",
-    icon: BriefcaseBusinessIcon,
-  },
-  {
     title: "Projects",
     href: "/#projects",
     icon: Icons.project,
@@ -87,13 +76,6 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     icon: CircleUserIcon,
   },
 ];
-
-const SOCIAL_LINK_ITEMS: CommandLinkItem[] = SOCIAL_LINKS.map((item) => ({
-  title: item.title,
-  href: item.href,
-  iconImage: item.icon,
-  openInNewTab: true,
-}));
 
 export function CommandMenu() {
   const router = useRouter();
@@ -208,14 +190,6 @@ export function CommandMenu() {
 
           <CommandSeparator />
 
-          <CommandLinkGroup
-            heading="Social Links"
-            links={SOCIAL_LINK_ITEMS}
-            onLinkSelect={handleOpenLink}
-          />
-
-          <CommandSeparator />
-
           <CommandGroup heading="Theme">
             <CommandItem
               keywords={["theme"]}
@@ -307,12 +281,6 @@ function buildCommandMetaMap() {
   commandMetaMap.set("Dark", { commandKind: "command" });
   commandMetaMap.set("Auto", { commandKind: "command" });
 
-  SOCIAL_LINK_ITEMS.forEach((item) => {
-    commandMetaMap.set(item.title, {
-      commandKind: "link",
-    });
-  });
-
   return commandMetaMap;
 }
 
@@ -334,7 +302,7 @@ function CommandMenuFooter() {
       <div className="flex h-10" />
 
       <div className="absolute inset-x-0 bottom-0 flex h-10 items-center justify-between gap-2 border-t bg-zinc-100/30 px-4 text-xs font-medium dark:bg-zinc-800/30">
-        <ChanhDaiMark className="size-6 text-muted-foreground" aria-hidden />
+        <ShubhamMark className="size-6 text-muted-foreground" aria-hidden />
 
         <div className="flex shrink-0 items-center gap-2">
           <span>{ENTER_ACTION_LABELS[selectedCommandKind]}</span>

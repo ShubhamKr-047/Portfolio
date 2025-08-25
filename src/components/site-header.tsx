@@ -33,7 +33,7 @@ export function SiteHeader() {
       )}
     >
       <div
-        className="screen-line-before screen-line-after mx-auto flex h-12 items-center justify-between gap-2 border-x border-edge px-2 after:z-1 after:transition-[background-color] sm:gap-4 md:max-w-3xl"
+        className="screen-line-before screen-line-after mx-auto flex h-12 items-center gap-2 border-x border-edge px-2 after:z-1 after:transition-[background-color] sm:gap-4 md:max-w-3xl"
         data-header-container
       >
         <BrandContextMenu>
@@ -42,9 +42,9 @@ export function SiteHeader() {
           </Link>
         </BrandContextMenu>
 
-        <div className="h-full flex-1 border-x border-edge sm:-ml-2" />
-
-        <DesktopNav items={MAIN_NAV} />
+        <div className="flex flex-1 justify-center">
+          <DesktopNav items={MAIN_NAV} />
+        </div>
 
         <div className="flex items-center gap-2">
           <CommandMenu />

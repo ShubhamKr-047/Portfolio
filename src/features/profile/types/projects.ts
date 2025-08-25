@@ -20,6 +20,10 @@ export type Project = {
   description?: string;
   /** Logo image URL (absolute or path under /public). */
   logo?: string;
+  /** Custom icon path for the project (absolute or path under /public). */
+  customIcon?: string;
+  /** If true, use theme-specific icons for dark/light mode. */
+  theme?: boolean;
   /** Whether the project card is expanded by default in the UI. */
   isExpanded?: boolean;
 };

@@ -20,12 +20,14 @@ export const TECH_STACK: TechStack[] = [
     title: "Java",
     href: "https://www.java.com/",
     categories: ["Language"],
+    customIcon: "/icons/java.svg",
   },
   {
     key: "python",
     title: "Python",
     href: "https://www.python.org/",
     categories: ["Language"],
+    customIcon: "/icons/python.svg",
   },
   {
     key: "numpy",
@@ -39,7 +41,7 @@ export const TECH_STACK: TechStack[] = [
     title: "Pandas",
     href: "https://pandas.pydata.org/",
     categories: ["Library", "Data Science"],
-    customIcon: "/icons/pandas.svg",
+    theme: true,
   },
   {
     key: "matplotlib",
@@ -53,18 +55,21 @@ export const TECH_STACK: TechStack[] = [
     title: "TypeScript",
     href: "https://www.typescriptlang.org/",
     categories: ["Language"],
+    customIcon: "/icons/typescript.svg",
   },
   {
     key: "js",
     title: "JavaScript",
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     categories: ["Language"],
+    customIcon: "/icons/js.svg",
   },
   {
     key: "nodejs",
     title: "Node.js",
     href: "https://nodejs.org/",
     categories: ["Runtime Environment"],
+    customIcon: "/icons/nodejs.svg",
   },
 
   {
@@ -72,6 +77,7 @@ export const TECH_STACK: TechStack[] = [
     title: "React",
     href: "https://react.dev/",
     categories: ["Library", "UI Library"],
+    customIcon: "/icons/react.svg",
   },
   {
     key: "nextjs2",
@@ -85,6 +91,7 @@ export const TECH_STACK: TechStack[] = [
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
     categories: ["Framework"],
+    customIcon: "/icons/tailwindcss.svg",
   },
   {
     key: "shadcn-ui",
@@ -105,6 +112,7 @@ export const TECH_STACK: TechStack[] = [
     title: "Motion",
     href: "https://motion.dev/",
     categories: ["Library", "Animation"],
+    customIcon: "/icons/motion.svg",
   },
 
   {
@@ -112,6 +120,7 @@ export const TECH_STACK: TechStack[] = [
     title: "Redux",
     href: "https://redux.js.org/",
     categories: ["State Management"],
+    customIcon: "/icons/redux.svg",
   },
 
   {
@@ -126,14 +135,15 @@ export const TECH_STACK: TechStack[] = [
     title: "React Navigation",
     href: "https://reactnavigation.org/",
     categories: ["Library", "Navigation"],
+    customIcon: "/icons/react-navigation.svg",
   },
-
 
   {
     key: "git",
     title: "Git",
     href: "https://git-scm.com/",
     categories: ["Version Control"],
+    customIcon: "/icons/git.svg",
   },
 
   {
@@ -141,20 +151,22 @@ export const TECH_STACK: TechStack[] = [
     title: "MySQL",
     href: "https://www.mysql.com/",
     categories: ["Database"],
+    customIcon: "/icons/mysql.svg",
   },
   {
     key: "mongodb",
     title: "MongoDB",
     href: "https://www.mongodb.com/",
     categories: ["Database"],
+    customIcon: "/icons/mongodb.svg",
   },
   {
     key: "redis",
     title: "Redis",
     href: "https://redis.io/",
     categories: ["Database"],
+    customIcon: "/icons/redis.svg",
   },
-
 
   {
     key: "chatgpt",

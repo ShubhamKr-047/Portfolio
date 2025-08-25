@@ -14,6 +14,7 @@ import { EmailItem } from "./email-item";
 import { IntroItem } from "./intro-item";
 import { JobItem } from "./job-item";
 import { PhoneItem } from "./phone-item";
+import { ResumeItem } from "./resume-item";
 
 export function Overview() {
   return (
@@ -45,6 +46,8 @@ export function Overview() {
           content={urlToName(USER.website)}
           href={USER.website}
         />
+
+        <ResumeItem />
 
         <IntroItem
           icon={USER.gender === "male" ? MarsIcon : VenusIcon}

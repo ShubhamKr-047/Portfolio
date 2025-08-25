@@ -1,24 +1,24 @@
 {
-  "name": "chanhdai.com",
+  "name": "shubham-portfolio",
   "version": "0.1.0",
-  "description": "A minimal portfolio, component registry, and blog.",
-  "homepage": "https://chanhdai.com",
+  "description": "A minimal portfolio.",
+  "homepage": "https://shubhamkr-047portfolio.vercel.app",
   "license": "MIT",
   "author": {
-    "name": "Nguyen Chanh Dai",
-    "email": "dai@chanhdai.com",
-    "url": "https://github.com/ncdai"
+    "name": "Shubham Kumar",
+    "email": "shubhamkumar.cse047@gmail.com",
+    "url": "https://github.com/ShubhamKr-047"
   },
   "contributors": [
     {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
-      "url": "https://github.com/ncdai"
+      "name": "Shubham Kumar",
+      "email": "shubhamkumar.cse047@gmail.com",
+      "url": "https://github.com/ShubhamKr-047"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncdai/chanhdai.com.git"
+    "url": "git+https://github.com/ShubhamKr-047/Portfolio.git"
   },
   "scripts": {
     "dev": "next dev -p 1408 --turbopack",
@@ -41,7 +41,7 @@
   "dependencies": {
     "@bprogress/next": "^3.2.12",
     "@hookform/resolvers": "^4.1.0",
-    "@ncdai/react-wheel-picker": "^1.0.13",
+
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "class-variance-authority": "^0.7.1",
