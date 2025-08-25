@@ -15,7 +15,7 @@ const content = `# Shubham's Portfolio
 
 ## Blog
 
-${allPosts.map((item) => `- [${item.metadata.title}](${SITE_INFO.url}/blog/${item.slug}.mdx): ${item.metadata.description}`).join("\n")}
+${allPosts.map((item) => `- [${item.title}](${SITE_INFO.url}/blog/${item.slug}.mdx): ${item.description}`).join("\n")}
 `;
 
 export const dynamic = "force-static";
