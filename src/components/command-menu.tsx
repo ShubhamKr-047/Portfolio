@@ -6,8 +6,10 @@ import {
   BriefcaseBusinessIcon,
   CircleUserIcon,
   CornerDownLeftIcon,
+  GraduationCapIcon,
   LetterTextIcon,
   MoonStarIcon,
+  Share2Icon,
   SunIcon,
 } from "lucide-react";
 import Image from "next/image";
@@ -41,20 +43,12 @@ type CommandLinkItem = {
   openInNewTab?: boolean;
 };
 
-const MENU_LINKS: CommandLinkItem[] = [
+const PORTFOLIO_LINKS: CommandLinkItem[] = [
   {
-    title: "Portfolio",
+    title: "Home",
     href: "/",
     icon: ShubhamMark,
   },
-  {
-    title: "Projects",
-    href: "/#projects",
-    icon: Icons.project,
-  },
-];
-
-const PORTFOLIO_LINKS: CommandLinkItem[] = [
   {
     title: "About",
     href: "/#about",
@@ -66,9 +60,19 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     icon: Icons.ts,
   },
   {
+    title: "Education",
+    href: "/#education",
+    icon: GraduationCapIcon,
+  },
+  {
     title: "Projects",
     href: "/#projects",
     icon: Icons.project,
+  },
+  {
+    title: "Socials",
+    href: "/#social-links",
+    icon: Share2Icon,
   },
   {
     title: "Download vCard",
@@ -173,14 +177,6 @@ export function CommandMenu() {
 
         <CommandList className="min-h-80">
           <CommandEmpty>No results found.</CommandEmpty>
-
-          <CommandLinkGroup
-            heading="Menu"
-            links={MENU_LINKS}
-            onLinkSelect={handleOpenLink}
-          />
-
-          <CommandSeparator />
 
           <CommandLinkGroup
             heading="Portfolio"
