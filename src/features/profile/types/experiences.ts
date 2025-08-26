@@ -1,3 +1,10 @@
+export type ExperiencePositionIcon =
+  | "code"
+  | "design"
+  | "education"
+  | "business"
+  | "idea";
+
 export interface ExperiencePosition {
   id: string;
   title: string;
@@ -10,6 +17,7 @@ export interface ExperiencePosition {
     start: string;
     end?: string;
   };
+  icon?: ExperiencePositionIcon;
 }
 
 export interface Experience {

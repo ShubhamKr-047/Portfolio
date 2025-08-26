@@ -79,7 +79,7 @@ Technologies used: Next.js 15, PostgreSQL, OpenAI, AWS S3, PineconeDB, ShadCN, D
       "Flexbox",
       "Keyframes",
     ],
-    description: `Developed an interactive Algorithm Visualizer that supports 6 sorting and searching algorithms.
+    description: `Developed an interactive Algorithm Visualizer that supports 6 sorting algorithms.
 - 🎯 Step-by-step execution visualization through smooth real-time animations
 - ⚙️ Customizable learning controls including speed adjustment, input size variation, and reset options
 - 📚 Improved usability and helped beginners better understand algorithmic flow
