@@ -3,11 +3,11 @@ import type { Project } from "../types/projects";
 export const PROJECTS: Project[] = [
   {
     id: "momento",
-    title: "Momento - Social Media App",
+    title: "Momento - Social Media Platform",
     period: {
       start: "Oct 2024",
     },
-    link: "https://momento-client.vercel.app/",
+    link: "https://momento-opal.vercel.app/",
     theme: true,
     skills: [
       "Full Stack",
@@ -17,18 +17,20 @@ export const PROJECTS: Project[] = [
       "MongoDB",
       "Redux",
       "JWT",
-      "bcrypt",
       "Material-UI",
+      "Formik",
     ],
-    description: `A full-stack social media application supporting CRUD operations on posts, featuring user authentication, post creation, and profile management.
-- 🔐 Secure user authentication and authorization with JSON Web Tokens (JWT) and bcrypt
-- 📝 Complete CRUD operations for posts with user-friendly interface
-- 👤 User profile management and customization features
-- 🎨 Responsive design with Material-UI components for enhanced user experience
-- 📱 Mobile-friendly interface with interactive components
-- 🚀 Achieved 50+ active users with 20% increase in user engagement
+    description: `A modern full-stack social media platform with posts, comments, likes, follow system, and profile management.
+- 🔐 Secure JWT authentication with bcrypt password hashing and protected routes
+- 📝 Full CRUD operations for posts and comments with image support
+- ❤️ Like/unlike posts, follow/unfollow users, and track profile views
+- 🔍 Real-time debounced search (500ms) reducing API calls by 90%
+- 🗑️ Account deletion with cascading removal of posts and friend connections
+- 🎨 Dark/light theme toggle with Material-UI and responsive design
+- 🔒 Access control and ownership validation for all operations
+- ⚡ Performance optimizations: pagination, infinite scroll, lazy loading, and image compression (60-80% reduction)
 
-Technologies used: React, Node.js, Express, MongoDB, Redux, JWT, bcrypt, Material-UI`,
+`,
     isExpanded: true,
   },
   {
@@ -41,25 +43,25 @@ Technologies used: React, Node.js, Express, MongoDB, Redux, JWT, bcrypt, Materia
     theme: true,
     skills: [
       "AI/ML",
-      "Next.js 15",
+      "Next.js",
       "PostgreSQL",
-      "OpenAI",
+      "Gemini",
       "AWS S3",
       "PineconeDB",
       "ShadCN",
       "DrizzleORM",
       "Clerk",
     ],
-    description: `AI-powered PDF Chatbot Platform built using Next.js 15, DrizzleORM, and OpenAI.
+    description: `AI-powered PDF Chatbot Platform built using Next.js, DrizzleORM, and Gemini.
 - 🤖 Real-time PDF content querying and interaction using natural language
 - 🔍 Retrieval-Augmented Generation (RAG) implementation with vector space embedding
 - ⚡ Fast, contextually relevant responses powered by PineconeDB
 - 🛡️ Secure and scalable system design with AWS S3 for file handling
 - 🔐 User authentication and management with Clerk
-- 🎨 Responsive, accessible chat interface built with ShadCN UI for polished user experience
 - 📊 Efficient data management with PostgreSQL and DrizzleORM
+- 🎨 Responsive, accessible chat interface built with ShadCN UI for polished user experience
 
-Technologies used: Next.js 15, PostgreSQL, OpenAI, AWS S3, PineconeDB, ShadCN, DrizzleORM, Clerk`,
+`,
   },
   {
     id: "algo",
@@ -81,13 +83,13 @@ Technologies used: Next.js 15, PostgreSQL, OpenAI, AWS S3, PineconeDB, ShadCN, D
     ],
     description: `Developed an interactive Algorithm Visualizer that supports 6 sorting algorithms.
 - 🎯 Step-by-step execution visualization through smooth real-time animations
-- ⚙️ Customizable learning controls including speed adjustment, input size variation, and reset options
 - 📚 Improved usability and helped beginners better understand algorithmic flow
 - 🎨 Responsive interface with clean styling and fluid animations
 - 🔧 Implemented using modern web technologies: HTML, CSS, JavaScript
 - 📐 Utilized CSS Grid, Flexbox, and Keyframes for optimal layout and animations
+- ⚙️ Customizable learning controls including speed adjustment, input size variation, and reset options
 
-Technologies used: HTML, CSS, JavaScript, CSS Grid, Flexbox, Keyframes`,
+`,
   },
   {
     id: "sk-logo",
@@ -99,7 +101,7 @@ Technologies used: HTML, CSS, JavaScript, CSS Grid, Flexbox, Keyframes`,
     theme: true,
     skills: [
       "Next.js 15",
-      "Tailwind CSS v4",
+      "Tailwind CSS",
       "Radix UI",
       "Motion",
       "shadcn/ui",

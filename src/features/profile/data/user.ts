@@ -18,7 +18,7 @@ export const USER: User = {
   email: "c2h1YmhhbWt1bWFyLmNzZTA0N0BnbWFpbC5jb20=", // base64 encoded
   website: "https://shubhamkr-047portfolio.vercel.app/",
   resume:
-    "https://drive.google.com/file/d/1E501zDg6ZaRYGpvctsQMoK_Zg4cf2phr/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZFBdZyYyUpOtBhXg2iC3sgw32UiGoIx6/view?usp=sharing",
   jobTitle: "Full Stack Developer",
   jobs: [
     {
@@ -34,7 +34,7 @@ With achievements such as [ICPC Regionalist’24](https://icpc.global/ICPCID/HVX
 
 Beyond CP/DSA, I love creating innovative applications. Some of my key projects include:
 
-• [Momento](https://momento-client.vercel.app/) — a full-stack social media platform built with React, Node.js, MongoDB, and Redux, featuring authentication, CRUD operations, and responsive UI.
+• [Momento](https://momento-opal.vercel.app/) — a modern, full-stack social media application built with the MERN stack. It features secure JWT authentication, a robust follow system, and full CRUD operations on posts. Performance is optimized with infinite scroll, debounced search, and client-side image compression.
 
 • [PDFPal](https://pdf-pal-fryc.vercel.app/) — an AI-powered PDF chatbot using Next.js, PostgreSQL, OpenAI, PineconeDB, and AWS S3, enabling real-time interaction with PDFs via natural language.
 
