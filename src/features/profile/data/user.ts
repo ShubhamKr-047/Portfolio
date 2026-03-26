@@ -18,7 +18,7 @@ export const USER: User = {
   email: "c2h1YmhhbWt1bWFyLmNzZTA0N0BnbWFpbC5jb20=", // base64 encoded
   website: "https://shubhamkr-047portfolio.vercel.app/",
   resume:
-    "https://drive.google.com/file/d/1ZFBdZyYyUpOtBhXg2iC3sgw32UiGoIx6/view?usp=sharing",
+    "https://drive.google.com/file/d/10FQXwg7UU0D0EbO120iTuYMZjwCRuEiN/view?usp=sharing",
   jobTitle: "Full Stack Developer",
   jobs: [
     {
@@ -28,15 +28,15 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Shubham Kumar — a Computer Science undergraduate at Indian Institute of Information Technology, Nagpur with a strong passion for competitive programming, problem-solving, and building impactful software solutions.
+Hello, World! I am Shubham Kumar — a Computer Science undergraduate at Indian Institute of Information Technology Nagpur with a strong passion for competitive programming, problem-solving, and building impactful software solutions.
 
-With achievements such as [ICPC Regionalist’24](https://icpc.global/ICPCID/HVXPDTUIMK9F), Expert on [Codeforces](https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds) (Top 2.5% in India), and 5★ on [CodeChef](https://www.codechef.com/users/godfrey7) (Top 1.5% in India), I thrive in tackling challenging algorithmic problems and pushing the boundaries of efficiency. I’ve solved 1000+ problems in CP and DSA, constantly sharpening my analytical and coding skills.
+With achievements such as [ICPC Regionalist’24](https://icpc.global/ICPCID/HVXPDTUIMK9F), Expert on [Codeforces](https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds) (Top 2.5% in India), and 5★ on [CodeChef](https://www.codechef.com/users/shubham_kr_047) (Top 1.5% in India), I thrive in tackling challenging algorithmic problems and pushing the boundaries of efficiency. I’ve solved 2000+ problems in CP and DSA, constantly sharpening my analytical and coding skills.
 
 Beyond CP/DSA, I love creating innovative applications. Some of my key projects include:
 
 • [Momento](https://momento-opal.vercel.app/) — a modern, full-stack social media application built with the MERN stack. It features secure JWT authentication, a robust follow system, and full CRUD operations on posts. Performance is optimized with infinite scroll, debounced search, and client-side image compression.
 
-• [PDFPal](https://pdf-pal-fryc.vercel.app/) — an AI-powered PDF chatbot using Next.js, PostgreSQL, OpenAI, PineconeDB, and AWS S3, enabling real-time interaction with PDFs via natural language.
+• [PDFPal](https://pdf-pal-fryc.vercel.app/) — an AI-powered PDF chatbot using Next.js, PostgreSQL, Gemini, PineconeDB, and AWS S3, enabling real-time interaction with PDFs via natural language.
 
 • [Algorithm Visualizer](https://shubhamkr-047.github.io/Algorithm-Visualizer/) — an interactive platform to learn sorting/searching algorithms with real-time animations and customizable learning controls.
 
