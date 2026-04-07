@@ -3,7 +3,7 @@ import type { Education } from "../types/education";
 export const EDUCATION: Education[] = [
   {
     id: "iiit-nagpur",
-    institution: "Indian Institute of Information Technology, Nagpur",
+    institution: "Institute of Information Technology Nagpur",
     period: {
       start: "2022",
       end: "2026",
@@ -14,11 +14,12 @@ export const EDUCATION: Education[] = [
 - Language Proficiency: Hindi, English.
 - Lead the Google Developer Group (GDG) CP/DSA team
 - Achievements:
-    - Qualified as [ICPC Regionalist'24](https://icpc.global/ICPCID/HVXPDTUIMK9F).
-    - Reached Expert on [Codeforces](https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds).`,
+  - Reached 5★ on [CodeChef](https://www.codechef.com/users/shubham_kr_047).
+  - Reached Guardian on [Leetcode](https://leetcode.com/shubham_kr_047/).
+  - Reached Expert on [Codeforces](https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds).
+  - Qualified as [ICPC Regionalist'24](https://icpc.global/ICPCID/HVXPDTUIMK9F).`,
     skills: [
       "C++",
-      "Java",
       "Python",
       "Data Structures",
       "Algorithms",
@@ -28,15 +29,21 @@ export const EDUCATION: Education[] = [
       "Software Engineering",
       "Operating Systems",
       "Computer Networks",
-      "Object-Oriented Programming",
+      "Object Oriented Programming",
+      "System Architecture",
+      "Discrete Mathematics and Graph Theory",
+      "Optimization Techniques",
+      "Microprocessors",
       "React",
       "Next.js",
       "Tailwind CSS",
       "TypeScript",
       "Node.js",
+      "Express.js",
       "MongoDB",
       "PostgreSQL",
       "OpenAI",
+      "Gemini",
       "PineconeDB",
       "AWS S3",
       "Docker",
@@ -58,11 +65,16 @@ export const EDUCATION: Education[] = [
     website: "http://sjsbhagalpur.org/",
     icon: "education",
     description: `- Completed 10th and 12th from CISCE board.
-- Qualified National Science Olympiad with Zonal Rank: 3, International Rank: 761 (Dec 2019).`,
+- Secured 95.6% in 10th grade.
+- Secured 98.8% in 12th grade.
+- Achievements:
+  - Qualified National Science Olympiad with Zonal Rank: 3, International Rank: 761 (Dec 2019).`, 
     skills: [
       "Academic Excellence",
       "Mathematics",
       "Computer Science",
+      "Java",
+      "Object Oriented Programming",
       "Leadership",
       "Teamwork",
     ],

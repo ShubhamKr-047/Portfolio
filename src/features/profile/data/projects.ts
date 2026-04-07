@@ -18,7 +18,6 @@ export const PROJECTS: Project[] = [
       "Redux",
       "JWT",
       "Material-UI",
-      "Formik",
     ],
     description: `A modern full-stack social media platform with posts, comments, likes, follow system, and profile management.
 - 🔐 Secure JWT authentication with bcrypt password hashing and protected routes

@@ -18,19 +18,19 @@ export const USER: User = {
   email: "c2h1YmhhbWt1bWFyLmNzZTA0N0BnbWFpbC5jb20=", // base64 encoded
   website: "https://shubhamkr-047portfolio.vercel.app/",
   resume:
-    "https://drive.google.com/file/d/10FQXwg7UU0D0EbO120iTuYMZjwCRuEiN/view?usp=sharing",
+    "https://drive.google.com/file/d/1QOziWdfCy_agXBzQwRURGFoHzyzZF_P-/view?usp=sharing",
   jobTitle: "Full Stack Developer",
   jobs: [
     {
       title: "Competitive Programmer",
-      company: "Expet-Codeforces",
-      website: "https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds",
+      company: "Guardian-Leetcode",
+      website: "https://leetcode.com/shubham_kr_047/",
     },
   ],
   about: `
 Hello, World! I am Shubham Kumar — a Computer Science undergraduate at Indian Institute of Information Technology Nagpur with a strong passion for competitive programming, problem-solving, and building impactful software solutions.
 
-With achievements such as [ICPC Regionalist’24](https://icpc.global/ICPCID/HVXPDTUIMK9F), Expert on [Codeforces](https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds) (Top 2.5% in India), and 5★ on [CodeChef](https://www.codechef.com/users/shubham_kr_047) (Top 1.5% in India), I thrive in tackling challenging algorithmic problems and pushing the boundaries of efficiency. I’ve solved 2000+ problems in CP and DSA, constantly sharpening my analytical and coding skills.
+With achievements such as [ICPC Regionalist’24](https://icpc.global/ICPCID/HVXPDTUIMK9F), 5★ on [CodeChef](https://www.codechef.com/users/shubham_kr_047) (Top 1% Globally), Guardian on [Leetcode](https://leetcode.com/shubham_kr_047/) (Top 1.2% Globally) and Expert on [Codeforces](https://codeforces.com/profile/Im_Gonna_Be_King_Of_Reds) (Top 2.5% in India), I thrive in tackling challenging algorithmic problems and pushing the boundaries of efficiency. I’ve solved 2000+ problems in CP and DSA, constantly sharpening my analytical and coding skills.
 
 Beyond CP/DSA, I love creating innovative applications. Some of my key projects include:
 
@@ -40,7 +40,7 @@ Beyond CP/DSA, I love creating innovative applications. Some of my key projects 
 
 • [Algorithm Visualizer](https://shubhamkr-047.github.io/Algorithm-Visualizer/) — an interactive platform to learn sorting/searching algorithms with real-time animations and customizable learning controls.
 
-I also lead the Google Developer Group (GDG) CP/DSA team at IIIT Nagpur, where I guide a community of 500+ students, conduct 50+ post-contest discussions, and actively promote competitive programming on campus.
+I also lead the Google Developer Group (GDG) CP/DSA team at IIIT Nagpur, where I guide a community of 500+ students, conduct 50+ post-contest discussions, organize the final round of [Algorithmia](https://codeforces.com/gym/560956) (college club contest), and actively promote competitive programming on campus.
 
 Let's connect and collaborate!
   `,
